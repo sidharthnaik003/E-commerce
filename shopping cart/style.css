@@ -1,14 +1,25 @@
 header ul {
   display: flex;
-  justify-content: space-around;
+    justify-content: space-around;
   list-style-type: none;
   padding: 0;
   background-color: #f8f9fa;
   padding: 10px 0;
 }
 
+a{
+  text-decoration: none;
+}
+
 header li {
   margin: 0 10px;
+}
+
+.v50{
+  text-align: center;
+  font-size: larger;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #887721;
 }
 
 .products {
