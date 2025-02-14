@@ -25,7 +25,18 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
+// 
 
+function clear() {
+    
+}
+
+// clear cart
 document.getElementById("clear-cart").addEventListener("click", function () {
-    location.reload();
+    
+    const cartItems = document.getElementById("cart-items").innerHTML=" ";
+    const totalPrice = document.getElementById("cart-total").innerHTML=0;
+
+    
+
 });
